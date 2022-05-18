@@ -4,10 +4,11 @@
 ```markdown
 New Cast Time = Old Cast Time / (1 + (Haste Rating / 1576))
 ```
+{{ page.content | number_of_words | divided_by: 200 }}
 
 Old cast time: <input type="text" id="oldCastTime1" name="oldCastTime1"> 
 Added haste rating: <input type="text" id="hasteRating" name="hasteRating"> 
-New cast time: <div>N/A</div>
+New cast time: N/A
 
 ### Haste rating needed for desired cast time
 ```markdown
