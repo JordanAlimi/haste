@@ -1,9 +1,6 @@
 ---
 forms:
-  - to: jhvanderschee@gmail.com
-    subject: New submission!
-    redirect: /
-    form_engine: formspree
+  - redirect: /haste
     placeholders: false
     fields: 
       - name: name
