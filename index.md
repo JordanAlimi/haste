@@ -1,3 +1,4 @@
+---
 forms:
   - to: jhvanderschee@gmail.com
     subject: New submission!
@@ -33,7 +34,7 @@ forms:
         input_type: submit
         placeholder: Submit form
         required: true
-
+---
 ## Haste Calculator
 
 ### New cast time from haste increase
@@ -47,7 +48,3 @@ New Cast Time = Old Cast Time / (1 + (Haste Rating / 1576))
 ```markdown
 Haste Rating = 1576 x ((Old Cast Time / Desired Cast Time) - 1 ))
 ```
-
-Old cast time: <input type="text" id="oldCastTime2" name="oldCastTime2">
-Desired cast time: <input type="text" id="desiredCastTime" name="desiredCastTime">
-Needed haste rating: <div>N/A</div>
